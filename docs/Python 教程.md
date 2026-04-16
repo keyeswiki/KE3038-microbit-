@@ -1,5 +1,149 @@
 # Python 教程
 
+## Micro:bit驱动安装说明：
+
+如果你已经安装过micro:bit 驱动，就不需要再次安装micro:bit驱动。假如你是首次使用micro:bit主板，则你的电脑需要安装micro:bit驱动，我们提供的micro:bit驱动文件和micro:bit驱动安装手册都在文件夹“安装Micro:bit 驱动”里面，你可以进入相关文件夹中根据说明书进行安装。
+
+
+## Mu介绍
+
+Mu的官方网站：[https://codewith.mu/](https://codewith.mu/)
+
+Mu是一个面向初学者程序员的Python代码编辑器，它基于教师和学生。获得Mu最简单和最容易的方法是通过Windows或Mac OSX的官方安装程序(Mu不再支持32位Windows)。目前推荐的版本是Mu 1.1.1。建议你们通过每个支持的操作系统的链接更新到这个版本.（**注意：micro:bit2.2主板需要MU1.1.1以上的版本才能兼容**）
+
+**确定版本并且下载Mu安装程序**
+
+先了解您的计算机是Windows系统还是Mac OSX系统；再打开资源管理器，鼠标右键点击”此电脑”，并选择属性，了解您的Windows系统是32位还是64位。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps1.jpg)
+
+查看系统类别，类型将显示在操作系统下，64位系统或者32位系统：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps2.jpg)
+
+打开链接：[https://codewith.mu/en/download](https://codewith.mu/en/download) 下载对应的Mu软件版本。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps3.jpg)
+
+**步骤2-运行安装程序：**
+
+Mac OSX系统安装Mu方法对应链接：[https://codewith.mu/en/howto/1.1/install_macos](https://codewith.mu/en/howto/1.1/install_macos) 。
+
+Windows 10 系统 
+
+（1）找到你刚刚下载的安装程序（它可能在你的下载文件夹中），双击打开安装程序文件。
+    
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps4.jpg)
+
+（2）检查许可证，选择复选框并单击“Install”。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps5.jpg)
+
+
+(3)当Mu在你的电脑上安装时，需要几分钟。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps6.jpg)
+
+（4）安装已成功完成，请单击“完成”关闭安装程序。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps7.jpg)
+
+​         
+
+**第3步-启动Mu**            
+你可以点击开始菜单中的图标启动Mu，也可以在搜索框中输入Mu(下面两种方法都有显示)。在第一次开始时，这可能需要一些时间。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps8.jpg)
+
+
+
+Mu的主界面如下图所示：
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps9.jpg)
+
+
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps10.jpg)
+
+  ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps11.jpg)新建程序代码编辑区。 
+
+ ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps12.jpg)从计算机加载“ py”程序文件。 
+
+ ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps13.jpg)当您单击“保存”按钮时，该代码将以“ py”格式保存到您的计算机。
+
+  
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps14.jpg)您需要确保已连接micro：bit到计算机，当您单击“ 刷入”按钮时，代码将在micro：bit上运行（或在 
+micro：bit点矩阵上滚动看到错误消息)。 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps15.jpg)当你点击“Files”按钮，可以将电脑上的库文件移到micro:bit上。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps16.jpg)当你先点击“REPL”按钮,再按下micro:bit后面的复位按钮，可以读取数字信号或模拟信号等。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps17.jpg)点击“ +”按钮将放大代码字体。 
+
+
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps18.jpg)点击“-”按钮将缩小代码的字体。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps19.jpg)单击“主题”在白天和黑夜主题之间切换。 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps20.jpg)编写代码后，单击“检查”按钮进行检查代码。
+
+ 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps21.jpg)单击“帮助”按钮将在浏览器中弹出一个页面，该页面将为您提供一些帮助。 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps22.jpg)单击“退出”按钮关闭Mu软件。 关闭之前，Mu将确保您已保存程序文件。
+
+**3.3上传第一个程序**
+
+实现功能：在micro：bit点矩阵上显示“心型” 图案
+（1）通过micro USB电缆将micro：bit连接,选择micro:bit模式
+
+
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps23.jpg)
+
+（2）您可以在编辑区域中编写代码，也可以点击加载我们提供的例程程序；
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps24.jpg)
+
+**注意:** 
+1 - 必须区分大写字母/小写字母！ 
+2 - 正确拼写! 
+3 - 诸如＃之类的关键字在内容之间需要一个空格。
+4 - 该程序以空白程序结尾. 
+5 - 与C语言相比，块主体（例如while的主体由缩进标记），Python完全消除了花括号（以及后缀的分号），并使用缩进结构来表示关系。 
+6 - 使用Tab键（tab）进行缩进。
+
+（3）编写代码后，我们可以单击拇指图标的“检查”按钮来检查我们的代码。
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps25.jpg)
+
+（4）检查完成后，如果代码没有错误。 您需要单击“刷入”按钮。
+
+
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps26.jpg)
+
+（5）单击“ 刷入”后，您可以观察到micro：bit板上的指示灯正在闪烁，表明正在下载程序。 如下图所示。
+          ![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps27.jpg)
+
+（6）指示灯点亮时，表示程序已成功下载。 
+
+（7）此时，您可以看到micro：bit上的LED点阵正在显示跳跃的“ 心型”。 如下图所示。 
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps29.jpg)
+
+![img](file:///C:\Users\ADMINI~1\AppData\Local\Temp\ksohtml12120\wps30.jpg)
+
+
+
+
+
+
 ## Microbit 基础课程
 
 ### 第一课 闪烁的心
@@ -892,7 +1036,7 @@ I = U / R = 3 V / 10 KΩ= 0.000 3A= 0.3mA。
 
 ![](media/dbdb9610b089f5505366ea1a90a548fe.jpg)
 
-　　
+
 面包板的外观和内部结构如上图所示，常见的最小单元面包板分上、中、下三部分，上面和下面部分一般是由一行或两行的插孔构成的窄条，中间部分是由中间一条隔离凹槽和上下各5
 行的插孔构成的条。
 
@@ -2551,8 +2695,7 @@ RGB的RED引脚接在P0、GREEN引脚接在P1、BLUE引脚接在P2
 
 1.  把库文件复制到MU软件的“Mu_code”目录下；
 
-例如，在windows系统中，假设您的系统安装在电脑C驱动器上，则用户名为“Administrator”，那么“mu_code”目录的路径是“C:\Users\Administrator\mu\_
-code”。在Linux系统上，“mu_code”目录的路径是“~/home/mu_code”
+例如，在windows系统中，假设您的系统安装在电脑C驱动器上，则用户名为“Administrator”，那么“mu_code”目录的路径是“C:\Users\Administrator\mu_code”。在Linux系统上，“mu_code”目录的路径是“~/home/mu_code”
 
 进入“mu_code”文件夹。
 
@@ -2620,8 +2763,7 @@ V1、V2跳帽插在5V的位置
 
 1.  把库文件复制到MU软件的“Mu_code”目录下；
 
-例如，在windows系统中，假设您的系统安装在电脑C驱动器上，则用户名为“Administrator”，那么“mu_code”目录的路径是“C:\Users\Administrator\mu\_
-code”。在Linux系统上，“mu_code”目录的路径是“~/home/mu_code”
+例如，在windows系统中，假设您的系统安装在电脑C驱动器上，则用户名为“Administrator”，那么“mu_code”目录的路径是“C:\Users\Administrator\mu_code”。在Linux系统上，“mu_code”目录的路径是“~/home/mu_code”
 
 进入“mu_code”文件夹。
 

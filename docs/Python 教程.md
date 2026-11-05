@@ -988,7 +988,7 @@ Image("11111:""11111:""11111:""11111:""11111")|将Image()赋给于变量lights|
 |soundLevel = microphone.sound_level()|将microphone.sound_level()赋给于变量soundLevel|
 |if button_a.is_pressed(): display.scroll(maxSound) else: soundLevel = microphone.sound_level() display.show(lights * soundLevel) if soundLevel &gt; maxSound: maxSound = soundLevel|如果按钮A被按下时 LED点阵屏显示外界声音级别值 否则，上述条件不成立时 将microphone.sound_level()赋给于变量soundLevel 随着外界声音大小，LED点阵屏的25个LED像呼吸灯似的 否则如果声音级别值大于声音最大值 声音最大值等于声音级别值|
 
-### 第十二课 microbit的蓝牙无线通信.docx
+### 第十二课 microbit的蓝牙无线通信
 
 虽然micro:bit拥有一个低功耗蓝牙模块，可以进行蓝牙连接发送数据等，但它只有16k的RAM。BLE堆栈占用了12k RAM，这意味着没有足够的空间来运行microPython；也意味着在同一时刻，microPython和蓝牙服务只能运行一个。
 
